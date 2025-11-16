@@ -1,99 +1,99 @@
-# Assignment 1: Understanding Console Messages
+# Zadanie 1: Rozumienie Komunikatów w Konsoli
 
-**Objective:** This assignment aims to practice using basic console methods to display different types of messages.
+**Cel:** To zadanie ma na celu przećwiczenie używania podstawowych metod konsolowych do wyświetlania różnych typów komunikatów.
 
-## Description
+## Opis
 
-In your `App` folder in `index.tsx` file, practice using different console methods to understand how they appear in the console:
+W folderze `App` w pliku `index.tsx`, przećwicz używanie różnych metod konsolowych, aby zrozumieć, jak pojawiają się one w konsoli:
 
-1. Use `console.log()` to display a simple message, for example:
+1. Użyj `console.log()` do wyświetlenia prostego komunikatu, na przykład:
 ```javascript
-console.log("Hello! This is a regular log message.");
+console.log("Cześć! To jest zwykły komunikat log.");
 ```
 
-2. Use `console.warn()` to display a warning message (this will appear in yellow), for example:
+2. Użyj `console.warn()` do wyświetlenia komunikatu ostrzegawczego (pojawi się na żółto), na przykład:
 ```javascript
-console.warn("Warning: This is a test warning message!");
+console.warn("Ostrzeżenie: To jest testowy komunikat ostrzegawczy!");
 ```
 
-3. Use `console.error()` to display an error message (this will appear in red), for example:
+3. Użyj `console.error()` do wyświetlenia komunikatu o błędzie (pojawi się na czerwono), na przykład:
 ```javascript
-console.error("Error: This is a test error message!");
+console.error("Błąd: To jest testowy komunikat o błędzie!");
 ```
 
-4. Add multiple console messages with different information to see how they stack in the console.
+4. Dodaj wiele komunikatów konsolowych z różnymi informacjami, aby zobaczyć, jak układają się one w konsoli.
 
-## Practical Goal
+## Cel Praktyczny
 
-Run the application and open the console (terminal where Expo is running). Observe the different colors and formats of each message type. Understand which console method is appropriate for different situations (information, warnings, errors).
+Uruchom aplikację i otwórz konsolę (terminal, w którym działa Expo). Obserwuj różne kolory i formaty każdego typu komunikatu. Zrozum, która metoda konsolowa jest odpowiednia dla różnych sytuacji (informacje, ostrzeżenia, błędy).
 
 ---
 
-# Assignment 2: Exploring the Developer Menu
+# Zadanie 2: Eksploracja Menu Deweloperskiego
 
-**Objective:** This assignment focuses on familiarizing yourself with the React Native Developer Menu and its basic options.
+**Cel:** To zadanie koncentruje się na zapoznaniu się z Menu Deweloperskim React Native i jego podstawowymi opcjami.
 
-## Description
+## Opis
 
-Learn how to access and navigate the Developer Menu in your React Native application.
+Naucz się, jak uzyskać dostęp do Menu Deweloperskiego w aplikacji React Native i jak się po nim poruszać.
 
-## Steps
+## Kroki
 
-1. **Open the Developer Menu:**
-    - If using Expo Go on a physical device: Shake your device
-    - If using iOS Simulator: Press `Cmd + D` (Mac) or `Ctrl + D` (Windows/Linux)
-    - If using Android Emulator: Press `Cmd + M` (Mac) or `Ctrl + M` (Windows/Linux)
-    - In the Expo CLI terminal: Press `m`
+1. **Otwórz Menu Deweloperskie:**
+    - Jeśli używasz Expo Go na urządzeniu fizycznym: Potrząśnij urządzeniem
+    - Jeśli używasz symulatora iOS: Naciśnij `Cmd + D` (Mac) lub `Ctrl + D` (Windows/Linux)
+    - Jeśli używasz emulatora Android: Naciśnij `Cmd + M` (Mac) lub `Ctrl + M` (Windows/Linux)
+    - W terminalu Expo CLI: Naciśnij `m`
 
-2. **Explore the following options:**
-    - **Reload**: Manually reload your application
-    - **Toggle Performance Monitor**: Enable this to see FPS (frames per second) and memory usage on screen
-    - **Toggle Element Inspector**: Enable this to inspect UI elements (we'll use this more later)
-    - **Debug Remote JS**: Opens debugging tools in your browser
+2. **Przejrzyj następujące opcje:**
+    - **Reload**: Ręcznie przeładuj aplikację
+    - **Toggle Performance Monitor**: Włącz, aby zobaczyć FPS (klatki na sekundę) i użycie pamięci na ekranie
+    - **Toggle Element Inspector**: Włącz, aby inspekcjonować elementy UI (będziemy to częściej używać później)
+    - **Debug Remote JS**: Otwiera narzędzia debugowania w przeglądarce
 
-3. **Practice reloading:**
-    - Change some text in your `index.tsx`
-    - Save the file and observe Fast Refresh automatically updating the app
-    - Try manually reloading using the Developer Menu
+3. **Przećwicz przeładowywanie:**
+    - Zmień jakiś tekst w swoim pliku `index.tsx`
+    - Zapisz plik i obserwuj, jak Fast Refresh automatycznie aktualizuje aplikację
+    - Spróbuj ręcznie przeładować, używając Menu Deweloperskiego
 
-4. **Enable Performance Monitor:**
-    - Toggle on the Performance Monitor
-    - Observe the RAM and FPS displayed on screen
-    - Keep it running while you interact with the app
+4. **Włącz Monitor Wydajności:**
+    - Włącz Performance Monitor
+    - Obserwuj RAM i FPS wyświetlane na ekranie
+    - Pozostaw włączone podczas interakcji z aplikacją
 
-## Practical Goal
+## Cel Praktyczny
 
-Become comfortable accessing the Developer Menu and understand what information the Performance Monitor provides. This will be your main tool for development and debugging.
+Poczuj się swobodnie z dostępem do Menu Deweloperskiego i zrozum, jakie informacje dostarcza Monitor Wydajności. To będzie Twoje główne narzędzie do developmentu i debugowania.
 
 ---
 
-# Assignment 3: Creating Your First Intentional Error
+# Zadanie 3: Tworzenie Pierwszego Zamierzonego Błędu
 
-**Objective:** Learn how to read and understand error messages when something goes wrong in your code.
+**Cel:** Naucz się czytać i rozumieć komunikaty o błędach, gdy coś pójdzie nie tak w Twoim kodzie.
 
-## Description
+## Opis
 
-Intentionally create a simple error to see how React Native displays error information and learn how to fix it.
+Celowo utwórz prosty błąd, aby zobaczyć, jak React Native wyświetla informacje o błędach i nauczyć się, jak je naprawiać.
 
-## Steps
+## Kroki
 
-1. In your `index.tsx` file, find where it says `<Text>` with some content inside.
+1. W pliku `index.tsx` znajdź miejsce, gdzie znajduje się `<Text>` z jakąś zawartością wewnątrz.
 
-2. **Create a syntax error**.
+2. **Utwórz błąd składniowy**.
 
-3. Save the file and observe:
-    - The app will show a **red error screen** (Redbox)
-    - Read the error message carefully - it will tell you what's wrong and where
-    - Note the file name and line number where the error occurred
+3. Zapisz plik i obserwuj:
+    - Aplikacja pokaże **czerwony ekran błędu** (Redbox)
+    - Przeczytaj uważnie komunikat o błędzie - powie Ci, co jest nie tak i gdzie
+    - Zanotuj nazwę pliku i numer linii, w której wystąpił błąd
 
-4. **Fix the error**.
+4. **Napraw błąd**.
 
-## Practical Goal
+## Cel Praktyczny
 
-Learn to read error messages without fear. Understand that:
-- Red screens (Redbox) indicate critical errors that stop the app
-- Error messages tell you exactly what's wrong and where to look
-- Most errors are simple typos or missing code that are easy to fix once you understand the message
-- Fast Refresh will automatically update your app once you fix the error
+Naucz się czytać komunikaty o błędach bez strachu. Zrozum, że:
+- Czerwone ekrany (Redbox) wskazują krytyczne błędy, które zatrzymują aplikację
+- Komunikaty o błędach mówią dokładnie, co jest nie tak i gdzie szukać
+- Większość błędów to proste literówki lub brakujący kod, które są łatwe do naprawienia, gdy zrozumiesz komunikat
+- Fast Refresh automatycznie zaktualizuje Twoją aplikację, gdy naprawisz błąd
 
-Good luck with debugging!
+Powodzenia w debugowaniu!
